@@ -1,0 +1,12 @@
+{
+    "block.magicworld.magic_lapis_block": "黑耀青石块",
+    "item.magicworld.wander_magician_spawn_egg": "游荡魔法使刷怪蛋",
+    "item.magicworld.magic_lapis_lazuli": "附魔青金石",
+    "entity.magicworld.wander_magician": "游荡魔法使",
+    "advancements.adventure.magicworld.title": "魔法",
+    "advancements.adventure.magicworld.description": "传说中的神秘力量",
+    "advancements.adventure.magicworld.magic_lapis_block.title": "魔力方块",
+    "advancements.adventure.magicworld.magic_lapis_block.description": "使用附魔青金石合成一个黑曜青石块",
+    "advancements.adventure.magicworld.magic_gate.title": "异界之旅",
+    "advancements.adventure.magicworld.magic_gate.description": "建造、激活并进入一座异界传送门"
+}

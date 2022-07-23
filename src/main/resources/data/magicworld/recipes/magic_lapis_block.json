@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "group": "magic_lapis_block",
+    "pattern": [
+        "LLL",
+        "LOL",
+        "LLL"
+    ],
+    "key": {
+        "L": {
+            "item": "magicworld:magic_lapis_lazuli"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "magicworld:magic_lapis_block"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "precipitation": "rain",
+    "category": "plains",
+    "temperature": 0.5,
+    "temperature_modifier": "none",
+    "downfall": 0.5,
+    "creature_spawn_probability": 0.8,
+    "effects": {
+        "sky_color": 7907327,
+        "fog_color": 12638463,
+        "water_color": 4159204,
+        "water_fog_color": 329011
+    },
+    "carvers": {
+        "air": [],
+        "liquid": []
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "magicworld:wander_magician",
+                "weight": 100,
+                "minCount": 2,
+                "maxCount": 6
+            }
+        ]
+    },
+    "player_spawn_friendly": true,
+    "spawn_costs": {}
+}

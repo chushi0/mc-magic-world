@@ -1,0 +1,22 @@
+{
+    "parent": "magicworld:recipes/root",
+    "criteria": {
+        "has_items": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "magicworld:magic_lapis_lazuli"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "magicworld:magic_lapis_block"
+        ]
+    }
+}

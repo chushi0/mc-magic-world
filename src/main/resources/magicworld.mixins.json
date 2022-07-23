@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "online.cszt0.magicworld.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EnchantantMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "title": {
+            "translate": "advancements.adventure.magicworld.title"
+        },
+        "frame": "task",
+        "background": "magicworld:textures/gui/advancements/backgrounds/magicworld.png",
+        "description": {
+            "translate": "advancements.adventure.magicworld.description"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "kill_wander_magician": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "magicworld:wander_magician"
+                }
+            }
+        }
+    }
+}

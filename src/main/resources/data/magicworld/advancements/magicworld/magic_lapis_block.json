@@ -1,0 +1,29 @@
+{
+    "parent": "magicworld:magicworld/root",
+    "display": {
+        "icon": {
+            "item": "magicworld:magic_lapis_block"
+        },
+        "title": {
+            "translate": "advancements.adventure.magicworld.magic_lapis_block.title"
+        },
+        "frame": "task",
+        "description": {
+            "translate": "advancements.adventure.magicworld.magic_lapis_block.description"
+        }
+    },
+    "criteria": {
+        "has_items": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "magicworld:magic_lapis_block"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    }
+}

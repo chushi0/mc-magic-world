@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "magicworld",
+  "version": "${version}",
+  "name": "magicworld",
+  "description": "",
+  "authors": [
+    "cszt0"
+  ],
+  "contact": {
+    "homepage": "https://github.com/chushi0",
+    "sources": "https://github.com/chushi0/MagicWorld"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "online.cszt0.magicworld.MagicWorld"
+    ],
+    "client": [
+      "online.cszt0.magicworld.MagicWorldClient"
+    ]
+  },
+  "mixins": [
+    "magicworld.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
