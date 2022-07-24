@@ -1,14 +1,14 @@
 {
     "precipitation": "rain",
     "category": "plains",
-    "temperature": 0.6,
+    "temperature": 0,
     "temperature_modifier": "none",
-    "downfall": 0.5,
-    "creature_spawn_probability": 0.8,
+    "downfall": 0.45,
+    "creature_spawn_probability": 0.5,
     "effects": {
-        "sky_color": 6330107,
-        "fog_color": 7970531,
-        "water_color": 3763670,
+        "sky_color": 7907327,
+        "fog_color": 12638463,
+        "water_color": 4159204,
         "water_fog_color": 329011
     },
     "carvers": {
@@ -95,7 +95,7 @@
         ],
         "monster": [
             {
-                "type": "magicworld:wander_magician",
+                "type": "minecraft:creeper",
                 "weight": 100,
                 "minCount": 1,
                 "maxCount": 4

@@ -17,8 +17,10 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.world.gen.structure.StructureType;
 import online.cszt0.magicworld.entities.WanderMagician;
 import online.cszt0.magicworld.items.MagicLapisLazuli;
+import online.cszt0.magicworld.worldgen.structure.TestStructure;
 
 public class MagicWorld implements ModInitializer {
 
@@ -27,6 +29,7 @@ public class MagicWorld implements ModInitializer {
                         new Identifier("magicworld", "wander_magician"),
                         FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, WanderMagician::new)
                                         .dimensions(EntityDimensions.fixed(0.75f, 0.75f)).build());
+
         public static final Item WANDER_MAGICIAN_SPAWN_EGG = new SpawnEggItem(WANDER_MAGICIAN, 12895428, 11382189,
                         new Item.Settings().group(ItemGroup.MISC));
         public static final Item MAGIC_LAPIS_LAZULI = new MagicLapisLazuli(
@@ -36,6 +39,12 @@ public class MagicWorld implements ModInitializer {
 
         @Override
         public void onInitialize() {
+                initRegister();
+                initPotral();
+                initEvents();
+        }
+
+        private void initRegister() {
                 FabricDefaultAttributeRegistry.register(WANDER_MAGICIAN, WanderMagician.createMobAttributes());
                 Registry.register(Registry.ITEM, new Identifier("magicworld", "wander_magician_spawn_egg"),
                                 WANDER_MAGICIAN_SPAWN_EGG);
@@ -44,9 +53,12 @@ public class MagicWorld implements ModInitializer {
                 Registry.register(Registry.BLOCK, new Identifier("magicworld", "magic_lapis_block"), MAGIC_LAPIS_BLOCK);
                 Registry.register(Registry.ITEM, new Identifier("magicworld", "magic_lapis_block"),
                                 new BlockItem(MAGIC_LAPIS_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+                Registry.register(Registry.STRUCTURE_TYPE,
+                                new Identifier("magicworld", "test"),
+                                (StructureType<TestStructure>) () -> TestStructure.CODEC);
+        }
 
-                WanderMagician.init();
-
+        private void initPotral() {
                 CustomPortalBuilder.beginPortal()
                                 .frameBlock(MAGIC_LAPIS_BLOCK)
                                 .destDimID(new Identifier("magicworld", "overworld"))
@@ -55,4 +67,7 @@ public class MagicWorld implements ModInitializer {
                                 .registerPortal();
         }
 
+        private void initEvents() {
+                WanderMagician.init();
+        }
 }

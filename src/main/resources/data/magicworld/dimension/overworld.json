@@ -19,6 +19,30 @@
                         "depth": 0,
                         "offset": 0
                     }
+                },
+                {
+                    "biome": "magicworld:drain_plains",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": -0.65,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "magicworld:abundant_plains",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.65,
+                        "depth": 0,
+                        "offset": 0
+                    }
                 }
             ]
         }
