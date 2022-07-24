@@ -1,0 +1,20 @@
+{
+    "parent": "magicworld:magicworld/spell",
+    "display": {
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "title": {
+            "translate": "advancements.adventure.magicworld.infinite_fireball.title"
+        },
+        "frame": "task",
+        "description": {
+            "translate": "advancements.adventure.magicworld.infinite_fireball.description"
+        }
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

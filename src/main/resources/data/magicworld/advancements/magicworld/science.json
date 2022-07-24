@@ -1,0 +1,20 @@
+{
+    "parent": "magicworld:magicworld/magic_gate",
+    "display": {
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "title": {
+            "translate": "advancements.adventure.magicworld.science.title"
+        },
+        "frame": "task",
+        "description": {
+            "translate": "advancements.adventure.magicworld.science.description"
+        }
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

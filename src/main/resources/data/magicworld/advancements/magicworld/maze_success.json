@@ -1,0 +1,20 @@
+{
+    "parent": "magicworld:magicworld/maze_start",
+    "display": {
+        "icon": {
+            "item": "minecraft:cobbled_deepslate"
+        },
+        "title": {
+            "translate": "advancements.adventure.magicworld.maze_success.title"
+        },
+        "frame": "task",
+        "description": {
+            "translate": "advancements.adventure.magicworld.maze_success.description"
+        }
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

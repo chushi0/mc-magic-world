@@ -1,0 +1,20 @@
+{
+    "parent": "magicworld:magicworld/spell",
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {
+            "translate": "advancements.adventure.magicworld.bad_spell.title"
+        },
+        "frame": "task",
+        "description": {
+            "translate": "advancements.adventure.magicworld.bad_spell.description"
+        }
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

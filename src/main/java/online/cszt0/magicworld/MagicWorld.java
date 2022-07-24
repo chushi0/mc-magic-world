@@ -50,6 +50,7 @@ public class MagicWorld implements ModInitializer {
                 CustomPortalBuilder.beginPortal()
                                 .frameBlock(MAGIC_LAPIS_BLOCK)
                                 .destDimID(new Identifier("magicworld", "overworld"))
+                                .onlyLightInOverworld()
                                 .tintColor(41, 60, 224)
                                 .registerPortal();
         }

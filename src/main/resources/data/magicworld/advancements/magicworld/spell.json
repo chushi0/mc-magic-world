@@ -1,0 +1,20 @@
+{
+    "parent": "magicworld:magicworld/weapon",
+    "display": {
+        "icon": {
+            "item": "minecraft:lever"
+        },
+        "title": {
+            "translate": "advancements.adventure.magicworld.spell.title"
+        },
+        "frame": "task",
+        "description": {
+            "translate": "advancements.adventure.magicworld.spell.description"
+        }
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

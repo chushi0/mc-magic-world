@@ -1,0 +1,20 @@
+{
+    "parent": "magicworld:magicworld/science",
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "title": {
+            "translate": "advancements.adventure.magicworld.nether.title"
+        },
+        "frame": "task",
+        "description": {
+            "translate": "advancements.adventure.magicworld.nether.description"
+        }
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

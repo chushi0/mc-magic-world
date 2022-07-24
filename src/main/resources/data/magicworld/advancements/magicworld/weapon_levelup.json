@@ -1,0 +1,20 @@
+{
+    "parent": "magicworld:magicworld/weapon",
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "title": {
+            "translate": "advancements.adventure.magicworld.weapon_levelup.title"
+        },
+        "frame": "task",
+        "description": {
+            "translate": "advancements.adventure.magicworld.weapon_levelup.description"
+        }
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
